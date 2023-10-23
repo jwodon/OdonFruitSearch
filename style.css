@@ -1,6 +1,4 @@
 * {
-  background: rgb(14,0,255);
-  background: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(255,128,0,1) 100%);
   color: white;
 }
 
@@ -14,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
 }
 
 input {
@@ -21,6 +20,7 @@ input {
   width: 400px;
   height: 10px;
   font-weight: bold;
+  background-color: #30cfd0;
 }
 
 .search-container {
@@ -45,7 +45,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: #30cfd0;
   width: 100%;
   max-height: 250px;
   overflow-y: auto;
@@ -60,10 +60,10 @@ ul li {
   height: 35px;
   display: flex;
   align-items: center;
+  background-color: #30cfd0;
 }
 ul li:hover {
-  background: rgb(255,128,0);
-  background: linear-gradient(90deg, rgba(255,128,0,1) 0%, rgba(14,0,255,1) 100%);
+  background: #330867;
   cursor: pointer;
 }
 
